@@ -1,0 +1,103 @@
+{
+    "id": "leaveapproval",
+    "name": "LeaveApproval",
+    "revision": "dev",
+    "readOnly": false,
+    "content": [
+        {
+            "id": "employee_details",
+            "type": "section",
+            "title": "Employee Details",
+            "content": [
+                {
+                    "id": "employee_id",
+                    "type": "string",
+                    "label": "Employee Id",
+                    "readOnly": true,
+                    "value": "${context.employeeId}",
+                    "constraints": {
+                        "required": false
+                    }
+                },
+                {
+                    "id": "employee_name",
+                    "type": "string",
+                    "label": "Employee Name",
+                    "readOnly": true,
+                    "value": "${context.employeeName}",
+                    "constraints": {
+                        "required": false
+                    }
+                },
+                {
+                    "id": "leave_type",
+                    "type": "string",
+                    "label": "Leave Type",
+                    "readOnly": true,
+                    "value": "${context.leaveType}",
+                    "constraints": {
+                        "required": false
+                    }
+                },
+                {
+                    "id": "leave_days",
+                    "type": "string",
+                    "label": "Leave Days",
+                    "readOnly": true,
+                    "value": "${context.leaveDays}",
+                    "constraints": {
+                        "required": false
+                    }
+                },
+                {
+                    "id": "leave_start",
+                    "type": "string",
+                    "label": "Leave Start",
+                    "readOnly": true,
+                    "value": "${context.leaveStart}",
+                    "constraints": {
+                        "required": false
+                    }
+                },
+                {
+                    "id": "leave_end",
+                    "type": "string",
+                    "label": "Leave End",
+                    "readOnly": true,
+                    "value": "${context.leaveEnd}",
+                    "constraints": {
+                        "required": false
+                    }
+                },
+                {
+                    "id": "reason",
+                    "type": "string",
+                    "label": "Reason",
+                    "readOnly": true,
+                    "value": "${context.reason}",
+                    "constraints": {
+                        "required": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": "comments",
+            "type": "section",
+            "title": "Comments",
+            "content": [
+                {
+                    "id": "approver_comments",
+                    "type": "string",
+                    "label": "Approver Comments",
+                    "readOnly": false,
+                    "value": "${context.approverComments}",
+                    "constraints": {
+                        "required": false
+                    }
+                }
+            ]
+        }
+    ],
+    "decisions": []
+}

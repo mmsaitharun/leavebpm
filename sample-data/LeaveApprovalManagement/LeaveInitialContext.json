@@ -1,0 +1,10 @@
+{
+	"requestId" : "LA0001",
+	"employeeId" : "INC00718",
+	"leaveType" : "Earned Leave",
+	"employeeName" : "Sai Tharun",
+	"leaveDays" : "5",
+	"leaveStart" : "11-12-2018",
+	"leaveEnd" : "16-12-2018",
+	"reason" : "Leaving Hometown"
+}
