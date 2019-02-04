@@ -62,6 +62,47 @@
 				"key": "formRevision",
 				"value": "dev"
 			}],
+			"customAttributes": [{
+				"id": "reason",
+				"label": "Reason",
+				"type": "string",
+				"value": "${context.reason}"
+			}, {
+				"id": "leaveEnd",
+				"label": "Leave End",
+				"type": "string",
+				"value": "${context.leaveEnd}"
+			}, {
+				"id": "leaveStart",
+				"label": "Leave Start",
+				"type": "string",
+				"value": "${context.leaveStart}"
+			}, {
+				"id": "leaveDays",
+				"label": "Leave Days",
+				"type": "string",
+				"value": "${context.leaveDays}"
+			}, {
+				"id": "employeeName",
+				"label": "Employee Name",
+				"type": "string",
+				"value": "${context.employeeName}"
+			}, {
+				"id": "leaveType",
+				"label": "Leave Type",
+				"type": "string",
+				"value": "${context.leaveType}"
+			}, {
+				"id": "employeeId",
+				"label": "Employee Id",
+				"type": "string",
+				"value": "${context.employeeId}"
+			}, {
+				"id": "requestId",
+				"label": "RequestId",
+				"type": "string",
+				"value": "${context.requestId}"
+			}],
 			"id": "usertask1",
 			"name": "Leave Approver Task",
 			"dueDateRef": "778e0e3f-c0ae-4118-a193-334946fbb80a"
